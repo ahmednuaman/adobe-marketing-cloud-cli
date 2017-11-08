@@ -1,0 +1,37 @@
+{
+  "name": "adobe-marketing-cloud-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI to load reports out of Adobe's Marketing Cloud",
+  "main": "index.js",
+  "bin": {
+    "adobe-marketing-cloud-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "standard --verbose | snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmednuaman/adobe-marketing-cloud-cli.git"
+  },
+  "keywords": [
+    "adobe",
+    "marketing",
+    "cloud"
+  ],
+  "author": "Ahmed Nuaman (ahmed@ahmednuaman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmednuaman/adobe-marketing-cloud-cli/issues"
+  },
+  "homepage": "https://github.com/ahmednuaman/adobe-marketing-cloud-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "request": "^2.83.0",
+    "wsse": "^2.4.0",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
+}
